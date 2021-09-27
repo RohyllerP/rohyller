@@ -99,6 +99,7 @@
 .article-flex-iconos{
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	width: 100%;
 	padding-top: 20px;
 	transition: all 0.3s ease;
@@ -344,6 +345,12 @@
 	#content-figure{
 	display: flex;
 	flex-wrap: wrap;
+}
+.article-4:hover{
+	height:26em;
+}
+.article-iconos-transform-4{
+	transform: translateY(250px);
 }
 }
 @media (max-width: 667px) {
